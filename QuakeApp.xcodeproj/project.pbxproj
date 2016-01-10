@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04234B7C1C42E0BC006537E0 /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04234B7B1C42E0BC006537E0 /* Quake.swift */; };
 		04234B7F1C42E5D1006537E0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04234B7E1C42E5D1006537E0 /* MapViewController.swift */; };
+		04234B811C42F11D006537E0 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04234B801C42F11D006537E0 /* ChooseViewController.swift */; };
 		0475C53F1C42131F003F9B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475C53E1C42131F003F9B60 /* AppDelegate.swift */; };
 		0475C5441C42131F003F9B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0475C5421C42131F003F9B60 /* Main.storyboard */; };
 		0475C5461C42131F003F9B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0475C5451C42131F003F9B60 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		04234B7B1C42E0BC006537E0 /* Quake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
 		04234B7E1C42E5D1006537E0 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		04234B801C42F11D006537E0 /* ChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
 		0475C53B1C42131F003F9B60 /* QuakeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuakeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0475C53E1C42131F003F9B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0475C5431C42131F003F9B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				04234B7E1C42E5D1006537E0 /* MapViewController.swift */,
+				04234B801C42F11D006537E0 /* ChooseViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0475C53F1C42131F003F9B60 /* AppDelegate.swift in Sources */,
+				04234B811C42F11D006537E0 /* ChooseViewController.swift in Sources */,
 				04234B7F1C42E5D1006537E0 /* MapViewController.swift in Sources */,
 				04234B7C1C42E0BC006537E0 /* Quake.swift in Sources */,
 			);

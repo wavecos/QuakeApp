@@ -16,7 +16,7 @@ class MapViewController: UIViewController {
   // conexiones
   @IBOutlet weak var mapView: MKMapView!
 
-
+  var quakeUrl : String?
   var quakes = [Quake]()
 
   override func viewDidLoad() {
@@ -40,7 +40,7 @@ class MapViewController: UIViewController {
   }
 
   func loadQuakes() {
-    Alamofire.request(.GET, "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson", parameters: nil)
+    Alamofire.request(.GET, self.quakeUrl!, parameters: nil)
       .responseJSON { response in
 
         if response.result.error == nil {
