@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class QuakeViewController: UIViewController {
 
@@ -17,6 +18,8 @@ class QuakeViewController: UIViewController {
   @IBOutlet weak var longitudLabel: UILabel!
 
   var quake : Quake?
+
+  let realm = try! Realm()
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -42,6 +45,14 @@ class QuakeViewController: UIViewController {
 
 
   @IBAction func saveQuakeAction(sender: AnyObject) {
+    if let quake = quake {
+      try! realm.write {
+        realm.add(quake, update: true)
+      }
+      let message = UIAlertController(title: "Mensaje", message: "Terremoto guardado :)", preferredStyle: .Alert)
+      message.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Cancel, handler: nil))
+      presentViewController(message, animated: true, completion: nil)
+    }
   }
 
 
