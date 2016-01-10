@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04234B7C1C42E0BC006537E0 /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04234B7B1C42E0BC006537E0 /* Quake.swift */; };
+		04234B7F1C42E5D1006537E0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04234B7E1C42E5D1006537E0 /* MapViewController.swift */; };
 		0475C53F1C42131F003F9B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475C53E1C42131F003F9B60 /* AppDelegate.swift */; };
-		0475C5411C42131F003F9B60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475C5401C42131F003F9B60 /* ViewController.swift */; };
 		0475C5441C42131F003F9B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0475C5421C42131F003F9B60 /* Main.storyboard */; };
 		0475C5461C42131F003F9B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0475C5451C42131F003F9B60 /* Assets.xcassets */; };
 		0475C5491C42131F003F9B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0475C5471C42131F003F9B60 /* LaunchScreen.storyboard */; };
 		0475C5541C42131F003F9B60 /* QuakeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475C5531C42131F003F9B60 /* QuakeAppTests.swift */; };
 		0475C55F1C42131F003F9B60 /* QuakeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475C55E1C42131F003F9B60 /* QuakeAppUITests.swift */; };
+		E2B3CA42AAABD199580D377F /* Pods_QuakeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F2AADEE72DB6616034B9AF /* Pods_QuakeApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04234B7B1C42E0BC006537E0 /* Quake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
+		04234B7E1C42E5D1006537E0 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		0475C53B1C42131F003F9B60 /* QuakeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuakeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0475C53E1C42131F003F9B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0475C5401C42131F003F9B60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0475C5431C42131F003F9B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0475C5451C42131F003F9B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0475C5481C42131F003F9B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		0475C55A1C42131F003F9B60 /* QuakeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuakeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0475C55E1C42131F003F9B60 /* QuakeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeAppUITests.swift; sourceTree = "<group>"; };
 		0475C5601C42131F003F9B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D73658EF348E0EA55C63C9 /* Pods-QuakeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuakeApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuakeApp/Pods-QuakeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		30F2AADEE72DB6616034B9AF /* Pods_QuakeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuakeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB6793D46C67205E2E0ED57 /* Pods-QuakeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuakeApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuakeApp/Pods-QuakeApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B3CA42AAABD199580D377F /* Pods_QuakeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04234B7A1C42E02E006537E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04234B7B1C42E0BC006537E0 /* Quake.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04234B7D1C42E497006537E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04234B7E1C42E5D1006537E0 /* MapViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		0475C5321C42131F003F9B60 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +104,8 @@
 				0475C5521C42131F003F9B60 /* QuakeAppTests */,
 				0475C55D1C42131F003F9B60 /* QuakeAppUITests */,
 				0475C53C1C42131F003F9B60 /* Products */,
+				31A5C2BC4CAF5AF7B49BE6A7 /* Pods */,
+				0F6E2E4877D8F9281BBE003E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +122,9 @@
 		0475C53D1C42131F003F9B60 /* QuakeApp */ = {
 			isa = PBXGroup;
 			children = (
+				04234B7D1C42E497006537E0 /* Controllers */,
+				04234B7A1C42E02E006537E0 /* Model */,
 				0475C53E1C42131F003F9B60 /* AppDelegate.swift */,
-				0475C5401C42131F003F9B60 /* ViewController.swift */,
 				0475C5421C42131F003F9B60 /* Main.storyboard */,
 				0475C5451C42131F003F9B60 /* Assets.xcassets */,
 				0475C5471C42131F003F9B60 /* LaunchScreen.storyboard */,
@@ -125,6 +151,23 @@
 			path = QuakeAppUITests;
 			sourceTree = "<group>";
 		};
+		0F6E2E4877D8F9281BBE003E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F2AADEE72DB6616034B9AF /* Pods_QuakeApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31A5C2BC4CAF5AF7B49BE6A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22D73658EF348E0EA55C63C9 /* Pods-QuakeApp.debug.xcconfig */,
+				AAB6793D46C67205E2E0ED57 /* Pods-QuakeApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0475C5631C42131F003F9B60 /* Build configuration list for PBXNativeTarget "QuakeApp" */;
 			buildPhases = (
+				FC9EE225429EA8254E480607 /* Check Pods Manifest.lock */,
 				0475C5371C42131F003F9B60 /* Sources */,
 				0475C5381C42131F003F9B60 /* Frameworks */,
 				0475C5391C42131F003F9B60 /* Resources */,
+				A299C0C984333B2D6CC22BC4 /* Embed Pods Frameworks */,
+				E3CDF1142AF068874DF149BB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +297,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A299C0C984333B2D6CC22BC4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuakeApp/Pods-QuakeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3CDF1142AF068874DF149BB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuakeApp/Pods-QuakeApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC9EE225429EA8254E480607 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0475C5371C42131F003F9B60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0475C5411C42131F003F9B60 /* ViewController.swift in Sources */,
 				0475C53F1C42131F003F9B60 /* AppDelegate.swift in Sources */,
+				04234B7F1C42E5D1006537E0 /* MapViewController.swift in Sources */,
+				04234B7C1C42E0BC006537E0 /* Quake.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +492,7 @@
 		};
 		0475C5641C42131F003F9B60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D73658EF348E0EA55C63C9 /* Pods-QuakeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QuakeApp/Info.plist;
@@ -408,6 +504,7 @@
 		};
 		0475C5651C42131F003F9B60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB6793D46C67205E2E0ED57 /* Pods-QuakeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QuakeApp/Info.plist;
@@ -484,6 +581,7 @@
 				0475C5651C42131F003F9B60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0475C5661C42131F003F9B60 /* Build configuration list for PBXNativeTarget "QuakeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +590,7 @@
 				0475C5681C42131F003F9B60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0475C5691C42131F003F9B60 /* Build configuration list for PBXNativeTarget "QuakeAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +599,7 @@
 				0475C56B1C42131F003F9B60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
